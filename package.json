@@ -1,22 +1,23 @@
 {
-  "name": "egypt-planner",
+  "name": "egypt-travel-planner",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "start": "next start"
   },
   "dependencies": {
-    "next": "16.2.6",
-    "react": "19.2.4",
-    "react-dom": "19.2.4"
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "eslint": "^9",
-    "eslint-config-next": "16.2.6",
-    "tailwindcss": "^4"
+    "@google/genai": "^2.3.0",
+    "@langchain/core": "^0.3.0",
+    "@langchain/openai": "^0.3.0",
+    "@tailwindcss/postcss": "^4.0.0",
+    "framer-motion": "^11.0.0",
+    "langchain": "^0.3.0",
+    "lucide-react": "^0.400.0",
+    "next": "^16.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.0"
   }
 }
